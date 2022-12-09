@@ -1,6 +1,6 @@
 # Vim Course By Free Code Camp
 
-- youtube: (link)[https://www.youtube.com/watch?v=RZ4p-saaQkc&t=22s]
+- youtube: [link](https://www.youtube.com/watch?v=RZ4p-saaQkc&t=22s)
 - professor: Florian Dedov
 
 ## First of all
