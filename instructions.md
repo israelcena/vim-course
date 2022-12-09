@@ -4,7 +4,7 @@
 - professor: Florian Dedov
 
 ## First of all
-
+is recomment download one "Vim Cheat Sheet" 
 for quit vim -> without save q! -> for save wq
 only ! -> execute terminal commands
 ps: !q doenst work, because "q" doenst terminal command
@@ -19,6 +19,24 @@ ps: !q doenst work, because "q" doenst terminal command
 	- u: undo last operation (like ctrl + z)
 	- ctrl + R : re-do last undo
 	  ps: you can combine with numbers, example: 3u, 3crtl+r
+#### keybinds
+##### Delete
+	- dw: delete word
+	- diw: delete in a word (same for de yank ex: yiw)
+	- delete/cut whole line: dd (in normal mode)
+	- delete/cut 6 lines: 6dd
+  - delete/cut 1 word: dw
+	- delete whole line and enter in the insert mode: cc
+	- d0: delete everything until the benginning
+	- d$: delete everything until the end of the line
+
+#### Cursor movement
+	- 00/I: go to start of the line
+	- 0$: go to end of the line
+
+#### Copy
+	- c: copy(and delete) and enter to insert mode (you can combine with "w" and "i", ex: "ciw")
+	- y: only copy
 
 #### nav into document
 - jk: up/down
@@ -32,14 +50,9 @@ you can combine numbers, j4, k5
 ### Visual mode
 - in normal mode key press "v"
 - for select just move the cursor
-- copy: y
+- copy: y (yanke)
 - paste: p
 - delete/cut: d
-- delete/cut whole line: dd (in normal mode)
-- delete/cut 6 lines: 6dd
-- delete/cut 1 word: dw
-- delete whole line and enter in the insert mode: cc
-- you can combine with numbers (select also)
 
 ### insert mode
 mode for type
