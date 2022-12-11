@@ -108,3 +108,7 @@ ps: line numbers can be combine with key bindings
 
 ### See last commands
 :reg
+
+## Plugins
+https://github.com/junegunn/vim-plug
+
